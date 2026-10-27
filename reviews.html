@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Reviews - Theosis Publishing</title>
+    <meta name="description" content="Curated book reviews in consciousness studies, spirituality, and transformative thinking.">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet-01.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">THEOSIS</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Essays</a></li>
+                <li><a href="reviews.html" class="active">Reviews</a></li>
+                <li><a href="authors.html">Authors</a></li>
+                <li><a href="books.html">Books</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- PAGE HEADER -->
+        <section class="article-header" style="margin-top: 60px;">
+            <h1 class="article-title">Book Reviews</h1>
+            <div class="article-subtitle">Curated reviews of significant works in consciousness studies and transformative thinking</div>
+            <div class="article-meta">Quality books for thoughtful readers</div>
+        </section>
+
+        <!-- FILTERS -->
+        <section class="section">
+            <div class="filter-bar">
+                <h3>Browse by Category</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Reviews</button>
+                    <button class="filter-btn" data-filter="consciousness">Consciousness</button>
+                    <button class="filter-btn" data-filter="philosophy">Philosophy</button>
+                    <button class="filter-btn" data-filter="spirituality">Spirituality</button>
+                    <button class="filter-btn" data-filter="ai">AI & Technology</button>
+                    <button class="filter-btn" data-filter="wisdom">Wisdom Traditions</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED REVIEW -->
+        <section class="section">
+            <h2 class="section-title">Featured Review</h2>
+            <div class="review-item featured-review">
+                <div class="review-header">
+                    <div class="review-cover">
+                        <!-- <insert image: book cover> -->
+                        <img src="images/book-cover-featured.jpg" alt="Featured book cover" />
+                    </div>
+                    <div class="review-info">
+                        <div class="review-meta">
+                            <span class="review-date">May 2025</span>
+                            <span class="review-category">Consciousness</span>
+                        </div>
+                        <h3>The Conscious Mind: In Search of a Fundamental Theory</h3>
+                        <p class="author">by David J. Chalmers</p>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">Essential Reading</span>
+                        </div>
+                        <p class="book-description">A rigorous philosophical exploration of consciousness that neither reduces it to mere computation nor dismisses it as illusion. Chalmers charts a middle course that takes both scientific and phenomenological approaches seriously.</p>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>This landmark work in consciousness studies refuses easy answers while maintaining intellectual rigor. Chalmers distinguishes between the "easy problems" of consciousness (explaining cognitive functions) and the "hard problem" (explaining why there is subjective experience at all).</p>
+                    <div class="pullquote">
+                        "The really hard problem of consciousness is the problem of experience. Why should physical processing give rise to a rich inner life at all?"
+                    </div>
+                    <p>What makes this essential reading for our audience is Chalmers' willingness to take consciousness seriously as a fundamental feature of reality, while avoiding both materialist reductionism and mystical speculation.</p>
+                    <a href="review-conscious-mind.html" class="read-more">Read Full Review</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- RECENT REVIEWS -->
+        <section class="section">
+            <h2 class="section-title">Recent Reviews</h2>
+            
+            <div class="reviews-grid">
+                <div class="review-card" data-category="spirituality">
+                    <div class="review-cover-small">
+                        <!-- <insert image: book cover> -->
+                        <img src="images/book-cover-1.jpg" alt="Book cover" />
+                    </div>
+                    <div class="review-card-content">
+                        <div class="review-meta">
+                            <span class="review-date">April 2025</span>
+                            <span class="review-category">Spirituality</span>
+                        </div>
+                        <h4>The Perennial Philosophy</h4>
+                        <p class="author">by Aldous Huxley</p>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-text">Recommended</span>
+                        </div>
+                        <p class="review-excerpt">Huxley's exploration of the common threads in humanity's wisdom traditions remains relevant, though it requires careful reading to separate insight from oversimplification.</p>
+                        <a href="review-perennial-philosophy.html" class="read-more">Read Review</a>
+                    </div>
+                </div>
+
+                <div class="review-card" data-category="philosophy">
+                    <div class="review-cover-small">
+                        <!-- <insert image: book cover> -->
+                        <img src="images/book-cover-2.jpg" alt="Book cover" />
+                    </div>
+                    <div class="review-card-content">
+                        <div class="review-meta">
+                            <span class="review-date">March 2025</span>
+                            <span class="review-category">Philosophy</span>
+                        </div>
+                        <h4>Mind and Cosmos</h4>
+                        <p class="author">by Thomas Nagel</p>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">Essential</span>
+                        </div>
+                        <p class="review-excerpt">A philosopher's critique of materialist reductionism that opens space for a more adequate understanding of consciousness and meaning.</p>
+                        <a href="review-mind-cosmos.html" class="read-more">Read Review</a>
+                    </div>
+                </div>
+
+                <div class="review-card" data-category="ai">
+                    <div class="review-cover-small">
+                        <!-- <insert image: book cover> -->
+                        <img src="images/book-cover-3.jpg" alt="Book cover" />
+                    </div>
+                    <div class="review-card-content">
+                        <div class="review-meta">
+                            <span class="review-date">February 2025</span>
+                            <span class="review-category">AI & Technology</span>
+                        </div>
+                        <h4>The Alignment Problem</h4>
+                        <p class="author">by Brian Christian</p>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-text">Important</span>
+                        </div>
+                        <p class="review-excerpt">A thoughtful examination of how we might align artificial intelligence with human values, raising profound questions about consciousness and ethics.</p>
+                        <a href="review-alignment-problem.html" class="read-more">Read Review</a>
+                    </div>
+                </div>
+
+                <div class="review-card" data-category="consciousness">
+                    <div class="review-cover-small">
+                        <!-- <insert image: book cover> -->
+                        <img src="images/book-cover-4.jpg" alt="Book cover" />
+                    </div>
+                    <div class="review-card-content">
+                        <div class="review-meta">
+                            <span class="review-date">January 2025</span>
+                            <span class="review-category">Consciousness</span>
+                        </div>
+                        <h4>Consciousness Explained</h4>
+                        <p class="author">by Daniel Dennett</p>
+                        <div class="rating">
+                            <span class="stars">★★★☆☆</span>
+                            <span class="rating-text">Provocative</span>
+                        </div>
+                        <p class="review-excerpt">Dennett's materialist approach to consciousness is intellectually rigorous but ultimately fails to account for the reality of subjective experience.</p>
+                        <a href="review-consciousness-explained.html" class="read-more">Read Review</a>
+                    </div>
+                </div>
+
+                <div class="review-card" data-category="wisdom">
+                    <div class="review-cover-small">
+                        <!-- <insert image: book cover> -->
+                        <img src="images/book-cover-5.jpg" alt="Book cover" />
+                    </div>
+                    <div class="review-card-content">
+                        <div class="review-meta">
+                            <span class="review-date">December 2024</span>
+                            <span class="review-category">Wisdom Traditions</span>
+                        </div>
+                        <h4>The Tao of Physics</h4>
+                        <p class="author">by Fritjof Capra</p>
+                        <div class="rating">
+                            <span class="stars">★★★☆☆</span>
+                            <span class="rating-text">Historical Interest</span>
+                        </div>
+                        <p class="review-excerpt">An early attempt to bridge science and spirituality that, while pioneering, often overstates the parallels between physics and mysticism.</p>
+                        <a href="review-tao-physics.html" class="read-more">Read Review</a>
+                    </div>
+                </div>
+
+                <div class="review-card" data-category="philosophy">
+                    <div class="review-cover-small">
+                        <!-- <insert image: book cover> -->
+                        <img src="images/book-cover-6.jpg" alt="Book cover" />
+                    </div>
+                    <div class="review-card-content">
+                        <div class="review-meta">
+                            <span class="review-date">November 2024</span>
+                            <span class="review-category">Philosophy</span>
+                        </div>
+                        <h4>Real Magic</h4>
+                        <p class="author">by Dean Radin</p>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-text">Thought-Provoking</span>
+                        </div>
+                        <p class="review-excerpt">A scientist's examination of consciousness-related anomalies that challenges materialist assumptions while maintaining scientific rigor.</p>
+                        <a href="review-real-magic.html" class="read-more">Read Review</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUBMISSION CALLOUT -->
+        <section class="section">
+            <div class="submission-callout">
+                <h3>Submit a Book for Review</h3>
+                <p>Are you an author or publisher with a work that fits our mission? We review books that explore consciousness, spirituality, and transformative thinking with both intellectual rigor and practical wisdom.</p>
+                <div class="submission-criteria">
+                    <h4>We Look For:</h4>
+                    <ul>
+                        <li>Serious exploration of consciousness and meaning</li>
+                        <li>Works that bridge scientific and spiritual perspectives</li>
+                        <li>Practical wisdom without superficiality</li>
+                        <li>Quality writing and original insights</li>
+                    </ul>
+                </div>
+                <a href="mailto:reviews@theosis.org" class="submit-btn">Submit Your Book</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <p><strong>Theosis Publishing</strong></p>
+            <p>Where consciousness studies meets everyday wisdom</p>
+            <p>&copy; 2025 Theosis Publishing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <style>
+        /* Additional styles for reviews page */
+        .filter-bar {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+        }
+
+        .filter-bar h3 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .filter-btn {
+            background: #f5f5f5;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background: #c4844e;
+            color: white;
+        }
+
+        .featured-review {
+            border: 2px solid #c4844e;
+            padding: 50px;
+        }
+
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-gap: 30px;
+        }
+
+        .review-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .review-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .review-cover-small {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .review-cover-small img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .review-card-content {
+            padding: 25px;
+        }
+
+        .review-meta {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            font-size: 0.85rem;
+        }
+
+        .review-date {
+            color: #c4844e;
+            font-weight: 500;
+        }
+
+        .review-category {
+            background: #f5f5f5;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+        }
+
+        .review-card h4 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+            color: #1a1a1a;
+        }
+
+        .review-card .author {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .stars {
+            color: #c4844e;
+            font-size: 1.1rem;
+        }
+
+        .rating-text {
+            font-size: 0.9rem;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .review-excerpt {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .submission-callout {
+            background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%);
+            color: white;
+            padding: 50px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .submission-callout h3 {
+            font-family: 'Crimson Text', serif;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .submission-criteria {
+            max-width: 500px;
+            margin: 30px auto;
+            text-align: left;
+        }
+
+        .submission-criteria h4 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: #c4844e;
+        }
+
+        .submission-criteria ul {
+            list-style-position: inside;
+            line-height: 1.6;
+        }
+
+        .submission-criteria li {
+            margin-bottom: 8px;
+        }
+
+        .submit-btn {
+            background: #c4844e;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            display: inline-block;
+            margin-top: 30px;
+            transition: background 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background: #a86d3a;
+        }
+
+        @media (max-width: 768px) {
+            .reviews-grid {
+                grid-template-columns: 1fr;
+                grid-gap: 20px;
+            }
+            
+            .filter-buttons {
+                justify-content: center;
+            }
+            
+            .featured-review {
+                padding: 30px 20px;
+            }
+            
+            .submission-callout {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</body>
+</html>
